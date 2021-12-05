@@ -1,0 +1,1 @@
+docker build -t cnic_ocr_demo .

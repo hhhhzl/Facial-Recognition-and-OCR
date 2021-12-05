@@ -1,0 +1,55 @@
+html {
+  min-width: 1600px;
+  background-color: "#F6F8FA";
+}
+
+#main-container {
+  display: grid;
+  grid-template-columns: 33% 67%;
+  margin: 70px 3% 0 3%;
+}
+
+section {
+  margin: 15px;
+}
+
+#query-upload-display {
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+#query-upload-display img {
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-height: 500px;
+}
+
+.card-header > button {
+  padding-left: 0;
+  color: black;
+}
+
+.related-image-display {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-height: 600px;
+  overflow-y: scroll;
+}
+
+.image-result-item-container {
+  margin: 10px 20px 10px 0px;
+}
+
+.image-result-item-container {
+  height: 350px;
+}
+
+.image-result-item-container img {
+  display: block;
+  width: auto;
+  height: auto;
+  margin: auto;
+  max-height: 250px;
+  max-width: 100%;
+}

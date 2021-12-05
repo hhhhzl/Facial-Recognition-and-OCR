@@ -1,0 +1,56 @@
+html {
+  min-width: 1600px;
+  background-color: "#F6F8FA";
+}
+
+#main-container {
+  display: grid;
+  grid-template-columns: 33% 67%;
+  margin: 70px 3% 0 3%;
+}
+
+section {
+  margin: 15px;
+}
+
+#image-upload-display {
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+#image-upload-display img {
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-height: 500px;
+}
+
+.card-header > button {
+  padding-left: 0;
+  color: black;
+}
+
+#image-results-display-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.image-result-item-container {
+  margin: 10px;
+}
+
+.result-img-container {
+  height: 300px;
+}
+
+.result-img-container img {
+  display: block;
+  width: auto;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
